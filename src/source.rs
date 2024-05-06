@@ -1,4 +1,3 @@
-use crate::episode::Episode;
 use nestify::nest;
 use serde::{Deserialize, Serialize};
 
@@ -19,7 +18,6 @@ nest! {
                 NarcoSub,
                 NarcoDub,
             }
-        >,
-        pub episodes: Vec<Episode>
+        >
     }
 }
